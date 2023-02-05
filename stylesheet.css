@@ -1,0 +1,179 @@
+body{
+	
+	background-color:black;
+
+}
+
+.row1{
+
+	flex-direction:row;
+	margin-top:2.5%;
+	margin-left:2%;
+	justify-content:center;
+	display:flex;
+	border-radius:30px;
+	color: white;
+	background-image: url(https://i.imgur.com/54TawnC.gif);
+	cursor: crosshair;
+	width:95%;
+	height:140px;
+	flex-grow:1;
+	box-shadow:white 5px 5px 30px;
+	
+
+}
+
+h1{
+	font-size:250%;
+	text-align:center;
+	color:white;
+	font-family: Helvetica;
+	font-style: oblique;
+	margin-top:3%;
+	position:relative;
+	top:50%;
+	-webkit-transform:translate(-50%);
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+	text-shadow: 3px 3px 5px teal,
+		     6px 6px 6px navy;
+
+	}
+	
+.row2{
+	
+	
+	margin:5% 0% 0.5% 0.5%;
+	background: linear-gradient(to left,rgb(17,17,17),black,rgb(17,17,17));
+	border-radius:15px 0px 0px 15px;
+	height:8500px;
+	width:20%;
+	
+	
+	
+}
+
+.row3{
+	
+	
+	border-radius:0px 15px 15px 0px;
+	margin:5% 0.5% 0.5% 0%;
+	background: linear-gradient(to left,rgb(17,17,17),rgb(8,59,109),rgb(17,17,17));
+	height:8500px;
+	width:80%;
+	
+	
+}
+
+.content{
+
+  display:flex;
+  flex-direction:row;
+  
+  
+}
+
+.img1{
+	
+	width:90%;
+	margin:41% 0.5% 0.5% 10%;
+	height:300px;
+	border-radius:10px;
+	
+
+}
+
+
+
+.img2{
+
+	width:92%;
+	margin:10.3% 0.5% 0.5% 5%;
+	height:300px;
+	border-radius:10px;
+	box-shadow:silver 5px 5px 30px;
+}
+
+.content1{
+
+	color:white;
+	font-family:helvetica;
+	font-size:100%;
+
+}
+
+.img3{
+
+	width:80%;
+	border-radius:10px;
+	box-shadow:silver 5px 5px 30px;
+
+}
+
+h2{
+
+	text-align:center;
+	color:white;
+	font-family:helvetica;
+	background: url(https://i.imgur.com/YQIpiVJ.gif) no-repeat 0 11px;
+	padding: 10px 0 0 25px;
+	cursor: pointer;
+	text-shadow: 3px 3px 5px black,
+		     6px 6px 6px navy;
+			 
+	font-style: oblique;
+}
+
+.close{
+	background-image: url(https://i.imgur.com/2CXXY86.gif);
+}
+
+.links1{
+
+	display:flex;
+	flex-direction:column;
+	flex-basis:20%;
+	margin-top:200%;
+	
+	
+	
+
+}
+
+.link{
+
+	height:70px;
+	width:80%;
+	justify-content:center;
+	margin:20% 0% 0% 10%;
+	
+	
+
+}
+
+.img4{
+
+	width:100%;
+	height:100%;
+	border-radius:10px;
+	cursor: pointer;
+	box-shadow:darkblue 5px 5px 30px;
+
+}
+
+.img4:hover{
+
+	transform: scale(1.3);
+	transition:transform 0.5s ease 0.01s;
+	box-shadow:silver 5px 5px 50px;
+	
+		}
+		
+#copyrights{
+
+	font-family:helvetica;
+	font-size:14px;
+	color:white;
+	text-shadow: 2px 2px 3px teal,3px 3px 3px navy;
+
+}

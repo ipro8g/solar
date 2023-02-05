@@ -1,0 +1,301 @@
+body{
+
+	background:linear-gradient(to left,black,#111111,black);
+	
+}
+
+.row{
+
+	margin-top:30%;
+	justify-content:center;
+	display:flex;
+
+}
+
+
+
+.row_inner{
+
+	margin-top:5%;
+	justify-content:center;
+	display:flex;
+
+}
+
+.row_car{
+
+	margin-top:10%;
+	justify-content:center;
+	display:flex;
+	
+	
+	
+
+}
+
+.car_frame{
+
+	width:100%;
+	height:700px;
+	border:1px;
+	border-color:black;
+
+}
+
+.flexzone1{
+	
+	margin-top:10%;
+	justify-content:center;
+	display:flex;
+	border-color:white;
+	width:10%;
+	height:10%;
+
+
+}
+
+
+.box1{
+	
+	border-radius:15px;
+	width: 25%;
+	height: 25%;
+	margin: 2%;
+	padding: 1%;
+	background:linear-gradient(to left,#083b6d,#111111,#083b6d);
+	box-shadow:darkblue 5px 5px 15px;
+	text-shadow: 2px 2px 3px teal,3px 3px 3px navy;
+	text-align:center;
+	color:white;
+	font-size:11px;
+	font-family:helvetica;
+	
+}
+
+.img1{
+	
+	border-radius:10px;
+	width:90%;
+	height:90%;
+	transition:opacity 0.5s ease-in-out;
+	cursor: pointer;
+	box-shadow:black 5px 5px 30px;
+
+}
+
+.img1:hover{
+
+	transform: scale(1.8);
+	transition:transform 0.5s ease 0.01s;
+	box-shadow:silver 5px 5px 50px;
+	
+		}
+
+.spc_con{
+
+	
+	margin-top:5%;
+	justify-content:center;
+	display:flex;
+
+
+
+}
+
+.spc_con_img{
+
+	width:80%;
+	height:40%;
+
+}
+
+.content_img1{
+
+	position:absolute;
+	margin-top:10.3%;
+	width:16%;
+	/*height:24%;*/
+	/*height:145px;*/
+	
+	
+	
+	
+
+}
+
+.content_img{
+
+	position:relative;
+	width:100%;
+	height:100%;
+
+}
+
+#copyrights{
+
+	font-family:helvetica;
+	font-size:14px;
+	color:#34738B;
+	text-shadow: 2px 2px 3px teal,3px 3px 3px navy;
+
+}
+
+/*Modified.*/
+
+.link1 a{
+
+	
+	position:absolute;
+	text-decoration:none;
+	color:white;
+	margin:0px;
+	margin:0% 0% 0% -5%;
+	font-size:1.4em;
+}
+
+.link1 a:hover{
+
+	
+	transition:transform 0.5s ease 0.01s;
+	cursor:none;
+	cursor:crosshair;
+	
+}
+
+#anchor1:hover{
+	color:rgb(0, 255, 179);
+	transform: scale(3) translate(0px,-8px);
+	text-shadow: 2px 2px 3px rgb(0, 234, 255),3px 3px 3px navy;
+	
+
+	
+}
+
+#anchor2:hover{
+	color:yellow;
+	transform: scale(3) translate(7px,-10px);
+	
+	text-shadow: 2px 2px 3px red,3px 3px 3px white;
+}
+
+#anchor3:hover{
+	color:silver;
+	transform: scale(3) translate(-7px,-7px);
+	
+	text-shadow: 2px 2px 3px black,3px 3px 3px red;
+}
+
+#anchor4:hover{
+	color:rgb(255, 94, 0);
+	transform: scale(3) translate(7px,-5px);
+	
+	text-shadow: 2px 2px 3px black,3px 3px 3px red;
+}
+
+#anchor5:hover{
+	color:greenyellow;
+	transform: scale(3) translate(2px,-5px);
+	
+	text-shadow: 2px 2px 3px rgb(0, 60, 255),3px 3px 3px rgb(0, 255, 128);
+}
+
+#anchor6:hover{
+	color:rgb(255, 255, 255);
+	transform: scale(3) translate(-4px,-5px);
+	
+	text-shadow: 2px 2px 3px yellow,3px 3px 3px darkgray;
+}
+
+#anchor7:hover{
+	color:red;
+	transform: scale(3) translate(4px,-7px);
+	
+	text-shadow: 2px 2px 3px darkgray,3px 3px 3px orangered;
+}
+
+#anchor8:hover{
+	color:silver;
+	transform: scale(3) translate(0px,-7px);
+	
+	text-shadow: 2px 2px 3px rgb(0, 60, 255),3px 3px 3px rgb(180, 180, 180);
+}
+
+#anchor9:hover{
+	color:orangered;
+	transform: scale(3) translate(-2px,-5px);
+	
+	text-shadow: 2px 2px 3px rgb(0, 255, 119),3px 3px 3px darkgray;
+}
+
+#anchor10:hover{
+	color:rgb(255, 187, 0);
+	transform: scale(3) translate(4px,-5px);
+	
+	text-shadow: 2px 2px 3px rgb(0, 38, 255),3px 3px 3px rgb(91, 148, 0);
+}
+
+#anchor11:hover{
+	
+	color:rgb(1, 1, 214);
+	transform: scale(3) translate(2px,-5px);
+	text-shadow: 2px 2px 3px rgb(0, 0, 0),3px 3px 3px rgb(116, 116, 116);
+	
+}
+
+#anchor12:hover{
+	color:rgb(0, 98, 255);
+	transform: scale(3) translate(-4px,-5px);
+	text-shadow: 2px 2px 3px rgb(162, 0, 255),3px 3px 3px rgb(98, 98, 98);
+	
+}
+
+#anchor8{
+
+	margin-left:-7%;
+}
+
+#anchor12{
+
+	margin-left:-5%;
+}
+
+#anchor6{
+
+	margin-left:-7%;
+}
+
+#anchor9{
+
+	margin-left:-5%;
+}
+
+.new_class{
+	width:30%;
+	height:150px;
+	border-radius:20%;
+	margin-top:10%;
+	box-shadow: 2px 2px 3px teal,3px 3px 3px navy;
+}
+
+.new_class:hover{
+
+	transform: scale(1.6);
+	transition:transform 0.5s ease 0.01s;
+	box-shadow:silver 5px 5px 50px;
+	
+		}
+
+
+		@media(max-width:600px){
+
+			.link1 a{
+
+	
+				
+				font-size:11px;
+			}
+
+		}
+
+
+

@@ -1,0 +1,34 @@
+body{
+
+	background:linear-gradient(to left,black,#111111,black);
+	
+}
+
+#car1{
+
+	margin-top:5%;
+
+}
+
+#cusCarousel .carousel-inner .carousel-item img{
+height: 75vh;
+width: 75%;
+
+}
+
+.carousel-inner .carousel-item > img{
+	-webkit-animation:thing 10s;
+	-o-animation:thing 10s;
+	animation:thing 10s;
+}
+
+@keyframes thing{
+	from{
+			transform: scale(1, 1);
+	}
+	to{
+			transform: scale(1.5, 1.5);
+	}
+	
+}
+
